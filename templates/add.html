@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Item</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="container mt-4">
+
+<h3>Add Grocery Item</h3>
+
+<form method="POST">
+    <div class="mb-3">
+        <label>Item Name</label>
+        <input type="text" name="name" class="form-control" required>
+    </div>
+
+    <div class="mb-3">
+        <label>Expiry Date</label>
+        <input type="date" name="expiry" class="form-control" required>
+    </div>
+
+    <div class="mb-3">
+        <label>Storage Type</label>
+        <select name="storage" class="form-control">
+            <option>Room</option>
+            <option>Fridge</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+</form>
+
+</body>
+</html>

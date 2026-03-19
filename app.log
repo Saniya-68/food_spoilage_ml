@@ -1,0 +1,401 @@
+2026-03-20 00:22:05,620 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-20 00:22:05,622 INFO [33mPress CTRL+C to quit[0m
+2026-03-20 00:22:05,627 INFO  * Restarting with stat
+2026-03-20 00:22:09,529 WARNING  * Debugger is active!
+2026-03-20 00:22:09,545 INFO  * Debugger PIN: 120-673-980
+2026-03-20 00:30:33,173 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-20 00:30:33,173 INFO [33mPress CTRL+C to quit[0m
+2026-03-20 00:30:33,177 INFO  * Restarting with stat
+2026-03-20 00:30:37,237 WARNING  * Debugger is active!
+2026-03-20 00:30:37,240 INFO  * Debugger PIN: 120-673-980
+2026-03-20 00:35:39,761 INFO 127.0.0.1 - - [20/Mar/2026 00:35:39] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-20 00:35:39,925 INFO 127.0.0.1 - - [20/Mar/2026 00:35:39] "GET /login HTTP/1.1" 200 -
+2026-03-20 00:35:40,155 INFO 127.0.0.1 - - [20/Mar/2026 00:35:40] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-20 00:35:40,217 INFO 127.0.0.1 - - [20/Mar/2026 00:35:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-20 00:35:52,346 INFO 127.0.0.1 - - [20/Mar/2026 00:35:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-20 00:35:52,357 INFO Expiry alert for user admin item apples days_left=-1
+2026-03-20 00:35:52,358 INFO Expiry alert for user admin item apples days_left=0
+2026-03-20 00:35:52,358 INFO Expiry alert for user admin item apples days_left=0
+2026-03-20 00:35:52,358 INFO Expiry alert for user admin item curd days_left=-1
+2026-03-20 00:35:52,358 INFO Expiry alert for user admin item dairymilk days_left=-1
+2026-03-20 00:35:52,358 INFO Expiry alert for user admin item dairymilk days_left=-1
+2026-03-20 00:35:52,482 INFO 127.0.0.1 - - [20/Mar/2026 00:35:52] "GET / HTTP/1.1" 200 -
+2026-03-20 00:35:52,512 INFO 127.0.0.1 - - [20/Mar/2026 00:35:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:36:16,976 INFO 127.0.0.1 - - [20/Mar/2026 00:36:16] "[33mGET /delete/ HTTP/1.1[0m" 404 -
+2026-03-20 00:36:26,481 INFO 127.0.0.1 - - [20/Mar/2026 00:36:26] "[33mGET /delete/ HTTP/1.1[0m" 404 -
+2026-03-20 00:36:31,904 INFO Expiry alert for user admin item apples days_left=-1
+2026-03-20 00:36:31,905 INFO Expiry alert for user admin item apples days_left=0
+2026-03-20 00:36:31,905 INFO Expiry alert for user admin item apples days_left=0
+2026-03-20 00:36:31,905 INFO Expiry alert for user admin item curd days_left=-1
+2026-03-20 00:36:31,905 INFO Expiry alert for user admin item dairymilk days_left=-1
+2026-03-20 00:36:31,906 INFO Expiry alert for user admin item dairymilk days_left=-1
+2026-03-20 00:36:31,908 INFO 127.0.0.1 - - [20/Mar/2026 00:36:31] "GET / HTTP/1.1" 200 -
+2026-03-20 00:36:31,951 INFO 127.0.0.1 - - [20/Mar/2026 00:36:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:36:36,149 INFO 127.0.0.1 - - [20/Mar/2026 00:36:36] "[35m[1mGET /add HTTP/1.1[0m" 500 -
+2026-03-20 00:36:36,196 INFO 127.0.0.1 - - [20/Mar/2026 00:36:36] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:36:36,225 INFO 127.0.0.1 - - [20/Mar/2026 00:36:36] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-20 00:36:36,281 INFO 127.0.0.1 - - [20/Mar/2026 00:36:36] "GET /add?__debugger__=yes&cmd=resource&f=console.png&s=scbBcxounB3boHlCv6JB HTTP/1.1" 200 -
+2026-03-20 00:43:30,634 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\utils\\recipe_engine.py', reloading
+2026-03-20 00:43:30,637 INFO  * Detected change in 'c:\\Users\\SANIYA\\food tracker\\utils\\recipe_engine.py', reloading
+2026-03-20 00:43:31,019 INFO  * Restarting with stat
+2026-03-20 00:43:31,023 INFO  * Restarting with stat
+2026-03-20 00:43:34,143 WARNING  * Debugger is active!
+2026-03-20 00:43:34,144 WARNING  * Debugger is active!
+2026-03-20 00:43:34,148 INFO  * Debugger PIN: 120-673-980
+2026-03-20 00:43:34,148 INFO  * Debugger PIN: 120-673-980
+2026-03-20 00:47:00,847 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-20 00:47:00,847 INFO [33mPress CTRL+C to quit[0m
+2026-03-20 00:47:00,850 INFO  * Restarting with stat
+2026-03-20 00:47:04,605 WARNING  * Debugger is active!
+2026-03-20 00:47:04,608 INFO  * Debugger PIN: 120-673-980
+2026-03-20 00:47:20,327 INFO Expiry alert for user admin item apples days_left=-1
+2026-03-20 00:47:20,327 INFO Expiry alert for user admin item apples days_left=0
+2026-03-20 00:47:20,328 INFO Expiry alert for user admin item apples days_left=0
+2026-03-20 00:47:20,328 INFO Expiry alert for user admin item curd days_left=-1
+2026-03-20 00:47:20,328 INFO Expiry alert for user admin item dairymilk days_left=-1
+2026-03-20 00:47:20,328 INFO Expiry alert for user admin item dairymilk days_left=-1
+2026-03-20 00:47:20,424 INFO 127.0.0.1 - - [20/Mar/2026 00:47:20] "GET / HTTP/1.1" 200 -
+2026-03-20 00:47:20,525 INFO 127.0.0.1 - - [20/Mar/2026 00:47:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:47:28,222 INFO 127.0.0.1 - - [20/Mar/2026 00:47:28] "[32mGET /delete/7 HTTP/1.1[0m" 302 -
+2026-03-20 00:47:28,235 INFO Expiry alert for user admin item apples days_left=-1
+2026-03-20 00:47:28,235 INFO Expiry alert for user admin item apples days_left=0
+2026-03-20 00:47:28,235 INFO Expiry alert for user admin item apples days_left=0
+2026-03-20 00:47:28,235 INFO Expiry alert for user admin item curd days_left=-1
+2026-03-20 00:47:28,235 INFO Expiry alert for user admin item dairymilk days_left=-1
+2026-03-20 00:47:28,237 INFO 127.0.0.1 - - [20/Mar/2026 00:47:28] "GET / HTTP/1.1" 200 -
+2026-03-20 00:47:28,270 INFO 127.0.0.1 - - [20/Mar/2026 00:47:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:47:32,352 INFO 127.0.0.1 - - [20/Mar/2026 00:47:32] "GET /recipes HTTP/1.1" 200 -
+2026-03-20 00:47:32,365 INFO 127.0.0.1 - - [20/Mar/2026 00:47:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:47:38,728 INFO 127.0.0.1 - - [20/Mar/2026 00:47:38] "POST /recipes HTTP/1.1" 200 -
+2026-03-20 00:47:38,742 INFO 127.0.0.1 - - [20/Mar/2026 00:47:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:47:56,242 INFO 127.0.0.1 - - [20/Mar/2026 00:47:56] "GET /recipes HTTP/1.1" 200 -
+2026-03-20 00:48:09,511 INFO 127.0.0.1 - - [20/Mar/2026 00:48:09] "[32mGET /delete/2 HTTP/1.1[0m" 302 -
+2026-03-20 00:48:09,525 INFO Expiry alert for user admin item apples days_left=0
+2026-03-20 00:48:09,525 INFO Expiry alert for user admin item apples days_left=0
+2026-03-20 00:48:09,525 INFO Expiry alert for user admin item curd days_left=-1
+2026-03-20 00:48:09,525 INFO Expiry alert for user admin item dairymilk days_left=-1
+2026-03-20 00:48:09,527 INFO 127.0.0.1 - - [20/Mar/2026 00:48:09] "GET / HTTP/1.1" 200 -
+2026-03-20 00:48:09,556 INFO 127.0.0.1 - - [20/Mar/2026 00:48:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:48:14,004 INFO 127.0.0.1 - - [20/Mar/2026 00:48:14] "[32mGET /delete/4 HTTP/1.1[0m" 302 -
+2026-03-20 00:48:14,017 INFO Expiry alert for user admin item apples days_left=0
+2026-03-20 00:48:14,018 INFO Expiry alert for user admin item curd days_left=-1
+2026-03-20 00:48:14,018 INFO Expiry alert for user admin item dairymilk days_left=-1
+2026-03-20 00:48:14,019 INFO 127.0.0.1 - - [20/Mar/2026 00:48:14] "GET / HTTP/1.1" 200 -
+2026-03-20 00:48:14,052 INFO 127.0.0.1 - - [20/Mar/2026 00:48:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:48:24,387 INFO 127.0.0.1 - - [20/Mar/2026 00:48:24] "[32mGET /delete/6 HTTP/1.1[0m" 302 -
+2026-03-20 00:48:24,399 INFO Expiry alert for user admin item apples days_left=0
+2026-03-20 00:48:24,400 INFO Expiry alert for user admin item curd days_left=-1
+2026-03-20 00:48:24,401 INFO 127.0.0.1 - - [20/Mar/2026 00:48:24] "GET / HTTP/1.1" 200 -
+2026-03-20 00:48:24,434 INFO 127.0.0.1 - - [20/Mar/2026 00:48:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:48:26,424 INFO 127.0.0.1 - - [20/Mar/2026 00:48:26] "GET /update/3 HTTP/1.1" 200 -
+2026-03-20 00:48:26,439 INFO 127.0.0.1 - - [20/Mar/2026 00:48:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:49:16,680 INFO 127.0.0.1 - - [20/Mar/2026 00:49:16] "[35m[1mPOST /update/3 HTTP/1.1[0m" 500 -
+2026-03-20 00:49:16,694 INFO 127.0.0.1 - - [20/Mar/2026 00:49:16] "GET /update/3?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-03-20 00:49:16,697 INFO 127.0.0.1 - - [20/Mar/2026 00:49:16] "GET /update/3?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-03-20 00:49:16,710 INFO 127.0.0.1 - - [20/Mar/2026 00:49:16] "GET /update/3?__debugger__=yes&cmd=resource&f=console.png&s=pvzrhKGyxk455sGLm9TN HTTP/1.1" 200 -
+2026-03-20 00:49:16,753 INFO 127.0.0.1 - - [20/Mar/2026 00:49:16] "GET /update/3?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-03-20 00:50:42,276 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-20 00:50:42,276 INFO [33mPress CTRL+C to quit[0m
+2026-03-20 00:50:42,280 INFO  * Restarting with stat
+2026-03-20 00:50:45,343 WARNING  * Debugger is active!
+2026-03-20 00:50:45,348 INFO  * Debugger PIN: 120-673-980
+2026-03-20 00:51:40,857 INFO Expiry alert for user admin item apples days_left=0
+2026-03-20 00:51:40,857 INFO Expiry alert for user admin item curd days_left=-1
+2026-03-20 00:51:40,858 INFO 127.0.0.1 - - [20/Mar/2026 00:51:40] "GET / HTTP/1.1" 200 -
+2026-03-20 00:51:40,892 INFO 127.0.0.1 - - [20/Mar/2026 00:51:40] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-20 00:51:43,056 INFO 127.0.0.1 - - [20/Mar/2026 00:51:43] "[35m[1mGET /add HTTP/1.1[0m" 500 -
+2026-03-20 00:51:43,073 INFO 127.0.0.1 - - [20/Mar/2026 00:51:43] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:51:43,079 INFO 127.0.0.1 - - [20/Mar/2026 00:51:43] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-20 00:51:43,093 INFO 127.0.0.1 - - [20/Mar/2026 00:51:43] "GET /add?__debugger__=yes&cmd=resource&f=console.png&s=pvzrhKGyxk455sGLm9TN HTTP/1.1" 200 -
+2026-03-20 00:51:51,978 INFO 127.0.0.1 - - [20/Mar/2026 00:51:51] "[35m[1mGET /add HTTP/1.1[0m" 500 -
+2026-03-20 00:51:52,002 INFO 127.0.0.1 - - [20/Mar/2026 00:51:52] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:51:52,007 INFO 127.0.0.1 - - [20/Mar/2026 00:51:52] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-20 00:51:52,019 INFO 127.0.0.1 - - [20/Mar/2026 00:51:52] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png&s=pvzrhKGyxk455sGLm9TN HTTP/1.1[0m" 304 -
+2026-03-20 00:52:52,314 INFO 127.0.0.1 - - [20/Mar/2026 00:52:52] "GET /add HTTP/1.1" 200 -
+2026-03-20 00:52:52,330 INFO 127.0.0.1 - - [20/Mar/2026 00:52:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:52:55,318 INFO Expiry alert for user admin item apples days_left=0
+2026-03-20 00:52:55,319 INFO Expiry alert for user admin item curd days_left=-1
+2026-03-20 00:52:55,382 INFO 127.0.0.1 - - [20/Mar/2026 00:52:55] "GET / HTTP/1.1" 200 -
+2026-03-20 00:52:55,393 INFO 127.0.0.1 - - [20/Mar/2026 00:52:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:53:00,449 INFO 127.0.0.1 - - [20/Mar/2026 00:53:00] "GET /login HTTP/1.1" 200 -
+2026-03-20 00:53:00,470 INFO 127.0.0.1 - - [20/Mar/2026 00:53:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:53:03,516 INFO 127.0.0.1 - - [20/Mar/2026 00:53:03] "GET /login HTTP/1.1" 200 -
+2026-03-20 00:53:03,531 INFO 127.0.0.1 - - [20/Mar/2026 00:53:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:53:04,853 INFO 127.0.0.1 - - [20/Mar/2026 00:53:04] "GET /login HTTP/1.1" 200 -
+2026-03-20 00:53:04,880 INFO 127.0.0.1 - - [20/Mar/2026 00:53:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:53:52,683 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-20 00:53:52,683 INFO [33mPress CTRL+C to quit[0m
+2026-03-20 00:53:52,685 INFO  * Restarting with stat
+2026-03-20 00:53:55,810 WARNING  * Debugger is active!
+2026-03-20 00:53:55,815 INFO  * Debugger PIN: 120-673-980
+2026-03-20 00:54:25,551 INFO Expiry alert for user admin item apples days_left=0
+2026-03-20 00:54:25,551 INFO Expiry alert for user admin item curd days_left=-1
+2026-03-20 00:54:25,552 INFO 127.0.0.1 - - [20/Mar/2026 00:54:25] "GET / HTTP/1.1" 200 -
+2026-03-20 00:54:25,595 INFO 127.0.0.1 - - [20/Mar/2026 00:54:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:54:38,914 INFO 127.0.0.1 - - [20/Mar/2026 00:54:38] "GET /add HTTP/1.1" 200 -
+2026-03-20 00:54:38,929 INFO 127.0.0.1 - - [20/Mar/2026 00:54:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:55:17,644 INFO 127.0.0.1 - - [20/Mar/2026 00:55:17] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+2026-03-20 00:55:17,658 INFO 127.0.0.1 - - [20/Mar/2026 00:55:17] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:55:17,660 INFO 127.0.0.1 - - [20/Mar/2026 00:55:17] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-20 00:55:17,672 INFO 127.0.0.1 - - [20/Mar/2026 00:55:17] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png&s=pvzrhKGyxk455sGLm9TN HTTP/1.1[0m" 304 -
+2026-03-20 00:55:17,706 INFO 127.0.0.1 - - [20/Mar/2026 00:55:17] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-20 00:56:01,116 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 00:56:01,128 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 00:56:01,141 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 00:56:01,158 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 00:56:01,169 INFO  * Detected change in 'c:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 00:56:01,590 INFO  * Restarting with stat
+2026-03-20 00:56:01,607 INFO  * Restarting with stat
+2026-03-20 00:56:01,619 INFO  * Restarting with stat
+2026-03-20 00:56:01,638 INFO  * Restarting with stat
+2026-03-20 00:56:01,661 INFO  * Restarting with stat
+2026-03-20 00:56:04,926 WARNING  * Debugger is active!
+2026-03-20 00:56:04,932 INFO  * Debugger PIN: 120-673-980
+2026-03-20 00:56:04,943 WARNING  * Debugger is active!
+2026-03-20 00:56:04,943 WARNING  * Debugger is active!
+2026-03-20 00:56:04,944 WARNING  * Debugger is active!
+2026-03-20 00:56:04,944 WARNING  * Debugger is active!
+2026-03-20 00:56:04,948 INFO  * Debugger PIN: 120-673-980
+2026-03-20 00:56:04,948 INFO  * Debugger PIN: 120-673-980
+2026-03-20 00:56:04,950 INFO  * Debugger PIN: 120-673-980
+2026-03-20 00:56:04,951 INFO  * Debugger PIN: 120-673-980
+2026-03-20 00:56:35,955 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-20 00:56:35,956 INFO [33mPress CTRL+C to quit[0m
+2026-03-20 00:56:35,957 INFO  * Restarting with stat
+2026-03-20 00:56:39,256 WARNING  * Debugger is active!
+2026-03-20 00:56:39,260 INFO  * Debugger PIN: 120-673-980
+2026-03-20 00:56:54,332 INFO 127.0.0.1 - - [20/Mar/2026 00:56:54] "GET /add HTTP/1.1" 200 -
+2026-03-20 00:56:54,443 INFO 127.0.0.1 - - [20/Mar/2026 00:56:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:57:08,131 INFO 127.0.0.1 - - [20/Mar/2026 00:57:08] "[32mPOST /add HTTP/1.1[0m" 302 -
+2026-03-20 00:57:08,145 INFO Expiry alert for user admin item apples days_left=0
+2026-03-20 00:57:08,145 INFO Expiry alert for user admin item curd days_left=-1
+2026-03-20 00:57:08,163 INFO 127.0.0.1 - - [20/Mar/2026 00:57:08] "GET / HTTP/1.1" 200 -
+2026-03-20 00:57:08,194 INFO 127.0.0.1 - - [20/Mar/2026 00:57:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:57:19,948 INFO 127.0.0.1 - - [20/Mar/2026 00:57:19] "[32mGET /delete/5 HTTP/1.1[0m" 302 -
+2026-03-20 00:57:19,960 INFO Expiry alert for user admin item apples days_left=0
+2026-03-20 00:57:19,961 INFO 127.0.0.1 - - [20/Mar/2026 00:57:19] "GET / HTTP/1.1" 200 -
+2026-03-20 00:57:19,990 INFO 127.0.0.1 - - [20/Mar/2026 00:57:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:57:23,921 INFO 127.0.0.1 - - [20/Mar/2026 00:57:23] "[32mGET /delete/3 HTTP/1.1[0m" 302 -
+2026-03-20 00:57:23,934 INFO 127.0.0.1 - - [20/Mar/2026 00:57:23] "GET / HTTP/1.1" 200 -
+2026-03-20 00:57:23,966 INFO 127.0.0.1 - - [20/Mar/2026 00:57:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:57:34,416 INFO 127.0.0.1 - - [20/Mar/2026 00:57:34] "GET /update/1 HTTP/1.1" 200 -
+2026-03-20 00:57:34,429 INFO 127.0.0.1 - - [20/Mar/2026 00:57:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:57:42,973 INFO 127.0.0.1 - - [20/Mar/2026 00:57:42] "[32mPOST /update/1 HTTP/1.1[0m" 302 -
+2026-03-20 00:57:42,989 INFO 127.0.0.1 - - [20/Mar/2026 00:57:42] "GET / HTTP/1.1" 200 -
+2026-03-20 00:57:43,026 INFO 127.0.0.1 - - [20/Mar/2026 00:57:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:57:46,620 INFO 127.0.0.1 - - [20/Mar/2026 00:57:46] "GET /update/1 HTTP/1.1" 200 -
+2026-03-20 00:57:46,638 INFO 127.0.0.1 - - [20/Mar/2026 00:57:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:58:26,316 INFO 127.0.0.1 - - [20/Mar/2026 00:58:26] "[32mPOST /update/1 HTTP/1.1[0m" 302 -
+2026-03-20 00:58:26,332 INFO 127.0.0.1 - - [20/Mar/2026 00:58:26] "GET / HTTP/1.1" 200 -
+2026-03-20 00:58:26,369 INFO 127.0.0.1 - - [20/Mar/2026 00:58:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:58:32,988 INFO 127.0.0.1 - - [20/Mar/2026 00:58:32] "GET /add HTTP/1.1" 200 -
+2026-03-20 00:58:33,005 INFO 127.0.0.1 - - [20/Mar/2026 00:58:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:59:05,415 INFO 127.0.0.1 - - [20/Mar/2026 00:59:05] "[32mPOST /add HTTP/1.1[0m" 302 -
+2026-03-20 00:59:05,430 INFO Expiry alert for user admin item tomato days_left=1
+2026-03-20 00:59:05,432 INFO 127.0.0.1 - - [20/Mar/2026 00:59:05] "GET / HTTP/1.1" 200 -
+2026-03-20 00:59:05,465 INFO 127.0.0.1 - - [20/Mar/2026 00:59:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:59:10,623 INFO 127.0.0.1 - - [20/Mar/2026 00:59:10] "GET /recipes HTTP/1.1" 200 -
+2026-03-20 00:59:10,638 INFO 127.0.0.1 - - [20/Mar/2026 00:59:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:59:18,980 INFO 127.0.0.1 - - [20/Mar/2026 00:59:18] "POST /recipes HTTP/1.1" 200 -
+2026-03-20 00:59:18,999 INFO 127.0.0.1 - - [20/Mar/2026 00:59:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 00:59:33,482 INFO 127.0.0.1 - - [20/Mar/2026 00:59:33] "POST /recipes HTTP/1.1" 200 -
+2026-03-20 00:59:33,503 INFO 127.0.0.1 - - [20/Mar/2026 00:59:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:00:46,397 INFO  * Detected change in 'c:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 01:00:46,477 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 01:00:47,159 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 01:00:49,143 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 01:00:49,172 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 01:00:50,175 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 01:00:51,205 INFO  * Restarting with stat
+2026-03-20 01:00:51,234 INFO  * Restarting with stat
+2026-03-20 01:00:51,642 INFO  * Restarting with stat
+2026-03-20 01:00:52,574 INFO  * Restarting with stat
+2026-03-20 01:00:52,595 INFO  * Restarting with stat
+2026-03-20 01:00:52,860 INFO  * Restarting with stat
+2026-03-20 01:01:11,866 WARNING  * Debugger is active!
+2026-03-20 01:01:11,911 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:01:12,972 WARNING  * Debugger is active!
+2026-03-20 01:01:13,076 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:01:13,583 WARNING  * Debugger is active!
+2026-03-20 01:01:13,630 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:01:14,214 WARNING  * Debugger is active!
+2026-03-20 01:01:14,311 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:01:17,222 WARNING  * Debugger is active!
+2026-03-20 01:01:17,283 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:01:17,451 WARNING  * Debugger is active!
+2026-03-20 01:01:17,490 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:03:23,006 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-20 01:03:23,007 INFO [33mPress CTRL+C to quit[0m
+2026-03-20 01:03:23,012 INFO  * Restarting with stat
+2026-03-20 01:03:27,286 WARNING  * Debugger is active!
+2026-03-20 01:03:27,297 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:06:48,250 INFO 127.0.0.1 - - [20/Mar/2026 01:06:48] "POST /recipes HTTP/1.1" 200 -
+2026-03-20 01:06:48,356 INFO 127.0.0.1 - - [20/Mar/2026 01:06:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:06:52,263 INFO 127.0.0.1 - - [20/Mar/2026 01:06:52] "GET /recipe/Tomato%20Pasta HTTP/1.1" 200 -
+2026-03-20 01:06:52,277 INFO 127.0.0.1 - - [20/Mar/2026 01:06:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:07:01,126 INFO 127.0.0.1 - - [20/Mar/2026 01:07:01] "GET /recipe/Creamy%20Oats%20Porridge HTTP/1.1" 200 -
+2026-03-20 01:07:01,142 INFO 127.0.0.1 - - [20/Mar/2026 01:07:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:29:15,787 INFO 127.0.0.1 - - [20/Mar/2026 01:29:15] "POST /recipes HTTP/1.1" 200 -
+2026-03-20 01:29:15,806 INFO 127.0.0.1 - - [20/Mar/2026 01:29:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:29:18,207 INFO 127.0.0.1 - - [20/Mar/2026 01:29:18] "GET /recipe/Creamy%20Oats%20Porridge HTTP/1.1" 200 -
+2026-03-20 01:29:18,227 INFO 127.0.0.1 - - [20/Mar/2026 01:29:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:29:49,198 INFO Expiry alert for user admin item tomato days_left=1
+2026-03-20 01:29:49,217 INFO 127.0.0.1 - - [20/Mar/2026 01:29:49] "GET / HTTP/1.1" 200 -
+2026-03-20 01:29:49,237 INFO 127.0.0.1 - - [20/Mar/2026 01:29:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:30:00,476 INFO 127.0.0.1 - - [20/Mar/2026 01:30:00] "GET /recipes HTTP/1.1" 200 -
+2026-03-20 01:30:00,494 INFO 127.0.0.1 - - [20/Mar/2026 01:30:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:30:05,419 INFO 127.0.0.1 - - [20/Mar/2026 01:30:05] "POST /recipes HTTP/1.1" 200 -
+2026-03-20 01:30:05,439 INFO 127.0.0.1 - - [20/Mar/2026 01:30:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:30:08,740 INFO 127.0.0.1 - - [20/Mar/2026 01:30:08] "GET /recipe/Tomato%20Pasta HTTP/1.1" 200 -
+2026-03-20 01:30:08,761 INFO 127.0.0.1 - - [20/Mar/2026 01:30:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:32:01,804 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-20 01:32:01,804 INFO [33mPress CTRL+C to quit[0m
+2026-03-20 01:32:01,807 INFO  * Restarting with stat
+2026-03-20 01:32:04,981 WARNING  * Debugger is active!
+2026-03-20 01:32:04,986 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:32:28,938 INFO 127.0.0.1 - - [20/Mar/2026 01:32:28] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-20 01:32:28,977 INFO 127.0.0.1 - - [20/Mar/2026 01:32:28] "GET /login HTTP/1.1" 200 -
+2026-03-20 01:32:29,028 INFO 127.0.0.1 - - [20/Mar/2026 01:32:29] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-20 01:32:29,104 INFO 127.0.0.1 - - [20/Mar/2026 01:32:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-20 01:32:41,493 INFO 127.0.0.1 - - [20/Mar/2026 01:32:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-20 01:32:41,508 INFO Expiry alert for user admin item tomato days_left=1
+2026-03-20 01:32:41,509 INFO 127.0.0.1 - - [20/Mar/2026 01:32:41] "GET / HTTP/1.1" 200 -
+2026-03-20 01:32:41,536 INFO 127.0.0.1 - - [20/Mar/2026 01:32:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:35:14,020 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-20 01:35:14,021 INFO [33mPress CTRL+C to quit[0m
+2026-03-20 01:35:14,022 INFO  * Restarting with stat
+2026-03-20 01:35:17,480 WARNING  * Debugger is active!
+2026-03-20 01:35:17,484 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:35:27,827 INFO 127.0.0.1 - - [20/Mar/2026 01:35:27] "GET /login HTTP/1.1" 200 -
+2026-03-20 01:35:27,870 INFO 127.0.0.1 - - [20/Mar/2026 01:35:27] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-20 01:35:31,057 INFO 127.0.0.1 - - [20/Mar/2026 01:35:31] "GET /login HTTP/1.1" 200 -
+2026-03-20 01:35:31,077 INFO 127.0.0.1 - - [20/Mar/2026 01:35:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:35:32,581 INFO 127.0.0.1 - - [20/Mar/2026 01:35:32] "GET /login HTTP/1.1" 200 -
+2026-03-20 01:35:32,607 INFO 127.0.0.1 - - [20/Mar/2026 01:35:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:36:56,455 INFO 127.0.0.1 - - [20/Mar/2026 01:36:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-20 01:36:56,480 INFO Expiry alert for user admin item tomato days_left=1
+2026-03-20 01:36:56,481 INFO 127.0.0.1 - - [20/Mar/2026 01:36:56] "GET / HTTP/1.1" 200 -
+2026-03-20 01:36:56,550 INFO 127.0.0.1 - - [20/Mar/2026 01:36:56] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-20 01:37:55,081 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-20 01:37:55,082 INFO [33mPress CTRL+C to quit[0m
+2026-03-20 01:37:55,084 INFO  * Restarting with stat
+2026-03-20 01:37:57,939 WARNING  * Debugger is active!
+2026-03-20 01:37:57,942 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:38:19,399 INFO 127.0.0.1 - - [20/Mar/2026 01:38:19] "GET /login HTTP/1.1" 200 -
+2026-03-20 01:38:19,412 INFO 127.0.0.1 - - [20/Mar/2026 01:38:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:39:44,469 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-20 01:39:44,469 INFO [33mPress CTRL+C to quit[0m
+2026-03-20 01:39:44,472 INFO  * Restarting with stat
+2026-03-20 01:39:47,601 WARNING  * Debugger is active!
+2026-03-20 01:39:47,606 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:39:56,525 INFO 127.0.0.1 - - [20/Mar/2026 01:39:56] "GET /login HTTP/1.1" 200 -
+2026-03-20 01:39:56,562 INFO 127.0.0.1 - - [20/Mar/2026 01:39:56] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-20 01:43:49,878 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-20 01:43:49,878 INFO [33mPress CTRL+C to quit[0m
+2026-03-20 01:43:49,880 INFO  * Restarting with stat
+2026-03-20 01:43:55,397 WARNING  * Debugger is active!
+2026-03-20 01:43:55,404 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:43:55,797 INFO 127.0.0.1 - - [20/Mar/2026 01:43:55] "GET /login HTTP/1.1" 200 -
+2026-03-20 01:43:55,850 INFO 127.0.0.1 - - [20/Mar/2026 01:43:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-20 01:43:55,998 INFO 127.0.0.1 - - [20/Mar/2026 01:43:55] "GET /login HTTP/1.1" 200 -
+2026-03-20 01:43:56,023 INFO 127.0.0.1 - - [20/Mar/2026 01:43:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:44:15,153 INFO 127.0.0.1 - - [20/Mar/2026 01:44:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-20 01:44:15,170 INFO Expiry alert for user admin item tomato days_left=1
+2026-03-20 01:44:15,171 INFO 127.0.0.1 - - [20/Mar/2026 01:44:15] "GET / HTTP/1.1" 200 -
+2026-03-20 01:44:15,204 INFO 127.0.0.1 - - [20/Mar/2026 01:44:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:44:21,264 INFO 127.0.0.1 - - [20/Mar/2026 01:44:21] "GET /recipes HTTP/1.1" 200 -
+2026-03-20 01:44:21,279 INFO 127.0.0.1 - - [20/Mar/2026 01:44:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:44:26,807 INFO 127.0.0.1 - - [20/Mar/2026 01:44:26] "POST /recipes HTTP/1.1" 200 -
+2026-03-20 01:44:26,831 INFO 127.0.0.1 - - [20/Mar/2026 01:44:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:44:31,840 INFO 127.0.0.1 - - [20/Mar/2026 01:44:31] "GET /recipe/Veggie%20Wrap HTTP/1.1" 200 -
+2026-03-20 01:44:31,867 INFO 127.0.0.1 - - [20/Mar/2026 01:44:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:45:41,115 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\utils\\recipe_engine.py', reloading
+2026-03-20 01:45:41,117 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\utils\\recipe_engine.py', reloading
+2026-03-20 01:45:41,188 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\utils\\recipe_engine.py', reloading
+2026-03-20 01:45:41,443 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\utils\\recipe_engine.py', reloading
+2026-03-20 01:45:41,756 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\utils\\recipe_engine.py', reloading
+2026-03-20 01:45:41,764 INFO  * Restarting with stat
+2026-03-20 01:45:41,803 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\utils\\recipe_engine.py', reloading
+2026-03-20 01:45:41,815 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\utils\\recipe_engine.py', reloading
+2026-03-20 01:45:41,820 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\utils\\recipe_engine.py', reloading
+2026-03-20 01:45:41,900 INFO  * Detected change in 'c:\\Users\\SANIYA\\food tracker\\utils\\recipe_engine.py', reloading
+2026-03-20 01:45:41,956 INFO  * Restarting with stat
+2026-03-20 01:45:41,978 INFO  * Restarting with stat
+2026-03-20 01:45:42,001 INFO  * Restarting with stat
+2026-03-20 01:45:42,284 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\utils\\recipe_engine.py', reloading
+2026-03-20 01:45:42,298 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\utils\\recipe_engine.py', reloading
+2026-03-20 01:45:42,307 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\utils\\recipe_engine.py', reloading
+2026-03-20 01:45:42,406 INFO  * Restarting with stat
+2026-03-20 01:45:42,522 INFO  * Restarting with stat
+2026-03-20 01:45:42,688 INFO  * Restarting with stat
+2026-03-20 01:45:42,704 INFO  * Restarting with stat
+2026-03-20 01:45:42,961 INFO  * Restarting with stat
+2026-03-20 01:45:43,363 INFO  * Restarting with stat
+2026-03-20 01:45:43,469 INFO  * Restarting with stat
+2026-03-20 01:45:49,971 WARNING  * Debugger is active!
+2026-03-20 01:45:49,991 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:45:50,004 WARNING  * Debugger is active!
+2026-03-20 01:45:50,016 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:45:50,049 WARNING  * Debugger is active!
+2026-03-20 01:45:50,060 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:45:50,194 WARNING  * Debugger is active!
+2026-03-20 01:45:50,204 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:45:50,239 WARNING  * Debugger is active!
+2026-03-20 01:45:50,255 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:45:50,306 WARNING  * Debugger is active!
+2026-03-20 01:45:50,325 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:45:50,417 WARNING  * Debugger is active!
+2026-03-20 01:45:50,417 WARNING  * Debugger is active!
+2026-03-20 01:45:50,432 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:45:50,434 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:45:50,435 WARNING  * Debugger is active!
+2026-03-20 01:45:50,453 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:45:50,455 WARNING  * Debugger is active!
+2026-03-20 01:45:50,472 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:45:50,924 WARNING  * Debugger is active!
+2026-03-20 01:45:50,935 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:45:51,170 WARNING  * Debugger is active!
+2026-03-20 01:45:51,187 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:52:35,195 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-20 01:52:35,196 INFO [33mPress CTRL+C to quit[0m
+2026-03-20 01:52:35,197 INFO  * Restarting with stat
+2026-03-20 01:52:38,679 WARNING  * Debugger is active!
+2026-03-20 01:52:38,684 INFO  * Debugger PIN: 120-673-980
+2026-03-20 01:53:05,940 INFO 127.0.0.1 - - [20/Mar/2026 01:53:05] "POST /recipes HTTP/1.1" 200 -
+2026-03-20 01:53:06,214 INFO 127.0.0.1 - - [20/Mar/2026 01:53:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:53:08,332 INFO 127.0.0.1 - - [20/Mar/2026 01:53:08] "POST /recipes HTTP/1.1" 200 -
+2026-03-20 01:53:08,352 INFO 127.0.0.1 - - [20/Mar/2026 01:53:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:53:22,651 INFO 127.0.0.1 - - [20/Mar/2026 01:53:22] "POST /recipes HTTP/1.1" 200 -
+2026-03-20 01:53:22,676 INFO 127.0.0.1 - - [20/Mar/2026 01:53:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:53:28,893 INFO Expiry alert for user admin item tomato days_left=1
+2026-03-20 01:53:28,934 INFO 127.0.0.1 - - [20/Mar/2026 01:53:28] "GET / HTTP/1.1" 200 -
+2026-03-20 01:53:28,962 INFO 127.0.0.1 - - [20/Mar/2026 01:53:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:53:31,949 INFO 127.0.0.1 - - [20/Mar/2026 01:53:31] "GET /recipes HTTP/1.1" 200 -
+2026-03-20 01:53:31,970 INFO 127.0.0.1 - - [20/Mar/2026 01:53:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:53:37,647 INFO 127.0.0.1 - - [20/Mar/2026 01:53:37] "POST /recipes HTTP/1.1" 200 -
+2026-03-20 01:53:37,682 INFO 127.0.0.1 - - [20/Mar/2026 01:53:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:53:44,712 INFO 127.0.0.1 - - [20/Mar/2026 01:53:44] "POST /recipes HTTP/1.1" 200 -
+2026-03-20 01:53:44,759 INFO 127.0.0.1 - - [20/Mar/2026 01:53:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:53:46,978 INFO 127.0.0.1 - - [20/Mar/2026 01:53:46] "POST /recipes HTTP/1.1" 200 -
+2026-03-20 01:53:47,009 INFO 127.0.0.1 - - [20/Mar/2026 01:53:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:53:55,770 INFO 127.0.0.1 - - [20/Mar/2026 01:53:55] "POST /recipes HTTP/1.1" 200 -
+2026-03-20 01:53:55,801 INFO 127.0.0.1 - - [20/Mar/2026 01:53:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:53:57,637 INFO 127.0.0.1 - - [20/Mar/2026 01:53:57] "POST /recipes HTTP/1.1" 200 -
+2026-03-20 01:53:57,667 INFO 127.0.0.1 - - [20/Mar/2026 01:53:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:54:03,857 INFO 127.0.0.1 - - [20/Mar/2026 01:54:03] "POST /recipes HTTP/1.1" 200 -
+2026-03-20 01:54:03,897 INFO 127.0.0.1 - - [20/Mar/2026 01:54:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 01:54:05,757 INFO 127.0.0.1 - - [20/Mar/2026 01:54:05] "POST /recipes HTTP/1.1" 200 -
+2026-03-20 01:54:05,786 INFO 127.0.0.1 - - [20/Mar/2026 01:54:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -

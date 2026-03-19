@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - AI Food Tracker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm mb-4">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="/">
+                <i class="bi bi-robot text-primary"></i> 
+                <span class="gradient-text">AI Food Tracker</span>
+            </a>
+            <div>
+                <a href="/login" class="btn btn-outline-danger btn-sm rounded-pill px-3">
+                    <i class="bi bi-box-arrow-right"></i> Logout
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container pb-5">
+        <!-- Flash Messages -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                <div class="flash-container mb-4">
+                    {% for category, message in messages %}
+                        <div class="alert alert-{{ category }} alert-dismissible fade show shadow-sm" role="alert">
+                            {{ message }}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endwith %}
+
+        <div class="page-surface p-3 mb-4">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h2 class="fw-bold mb-1"><i class="bi bi-basket2"></i> Smart Food Dashboard</h2>
+                    <p class="text-secondary mb-0">Track, predict spoilage, and reduce waste with AI-powered suggestions.</p>
+                </div>
+                <div class="col-md-4 text-md-end mt-2 mt-md-0">
+                    <a href="/add" class="btn btn-custom me-2"><i class="bi bi-plus-circle"></i> Add Item</a>
+                    <a href="/recipes" class="btn btn-outline-secondary"><i class="bi bi-book"></i> Recipes</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-3 mb-3">
+            <div class="col">
+                <div class="dashboard-card p-3">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div>
+                            <p class="mb-1 text-uppercase text-muted small">Total Items</p>
+                            <h4 class="m-0">{{ analytics.total }}</h4>
+                        </div>
+                        <i class="bi bi-box-seam fs-3 text-primary"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="dashboard-card p-3">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div>
+                            <p class="mb-1 text-uppercase text-muted small">Fresh</p>
+                            <h4 class="m-0">{{ analytics.fresh }}</h4>
+                        </div>
+                        <i class="bi bi-check-circle-fill fs-3 text-success"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="dashboard-card p-3">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div>
+                            <p class="mb-1 text-uppercase text-muted small">Expiring soon</p>
+                            <h4 class="m-0">{{ analytics.expiring }}</h4>
+                        </div>
+                        <i class="bi bi-exclamation-triangle-fill fs-3 text-warning"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-search fs-4 me-2 text-secondary"></i>
+            <input type="text" id="searchInput" class="search-input" placeholder="Search your fridge..." onkeyup="filterItems()">
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="itemsGrid">
+            {% if items %}
+                {% for item in items %}
+                <div class="col item-card" data-name="{{ item.name | lower }}">
+                    <div class="glass-card h-100 p-4 position-relative">
+                        <div class="dropdown position-absolute top-0 end-0 mt-3 me-3">
+                            <button class="btn btn-sm btn-light border-0 rounded-circle shadow-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-three-dots-vertical"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end shadow border-0">
+                                <li>
+                                    <a class="dropdown-item text-primary" href="/update/{{ item.id }}">
+                                        <i class="bi bi-pencil-square me-2"></i>Edit
+                                    </a>
+                                </li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <a class="dropdown-item text-danger" href="/delete/{{ item.id }}">
+                                        <i class="bi bi-trash me-2"></i>Delete
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-start mb-3 pe-4">
+                            <h4 class="fw-bold mb-0 text-truncate">{{ item.name }}</h4>
+                            <span class="badge rounded-pill {% if item.status == 'Expired' %}bg-danger{% elif item.status == 'Expiring Soon' %}bg-warning text-dark{% else %}bg-success{% endif %}">{{ item.status }}</span>
+                        </div>
+
+                        <div class="mb-3">
+                            <p class="text-secondary mb-1"><i class="bi bi-box-seam text-info"></i> <strong>Type:</strong> {{ item.food_type }} / {{ item.storage_type }}</p>
+                            <p class="text-secondary mb-1"><i class="bi bi-calendar-event text-primary"></i> <strong>Expiry:</strong> {{ item.expiry_date }}</p>
+                        </div>
+
+                        <div class="d-flex gap-2 mt-2">
+                            <a href="/update/{{ item.id }}" class="btn btn-sm btn-outline-primary">Edit</a>
+                            <a href="/delete/{{ item.id }}" class="btn btn-sm btn-outline-danger">Delete</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Delete Confirmation Modal -->
+                <div class="modal fade" id="deleteModal{{ item.id }}" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content border-0 shadow">
+                            <div class="modal-header border-bottom-0">
+                                <h5 class="modal-title fw-bold text-danger">
+                                    <i class="bi bi-exclamation-octagon-fill me-2"></i>Confirm Deletion
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Are you sure you want to delete <strong>{{ item.name }}</strong>? This action cannot be undone.
+                            </div>
+                            <div class="modal-footer border-top-0">
+                                <button type="button" class="btn btn-light rounded-pill px-4" data-bs-dismiss="modal">Cancel</button>
+                                <a href="/delete/{{ item.id }}" class="btn btn-danger rounded-pill px-4 shadow-sm">Delete Item</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            {% else %}
+                <div class="col-12 text-center py-5">
+                    <div class="glass-card max-w-md mx-auto">
+                        <div class="display-1 text-muted mb-3"><i class="bi bi-egg"></i></div>
+                        <h4 class="fw-bold mb-3">Your fridge is empty!</h4>
+                        <p class="text-secondary mb-4">Start tracking your food to prevent spoilage and save money.</p>
+                        <a href="/add" class="btn btn-custom btn-lg w-100 shadow-sm">
+                            <i class="bi bi-cart-plus me-2"></i> Add Your First Item
+                        </a>
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom Script for Search Filter -->
+    <script>
+        function filterItems() {
+            const input = document.getElementById('searchInput');
+            const filter = input.value.toLowerCase();
+            const grid = document.getElementById('itemsGrid');
+            const cards = grid.getElementsByClassName('item-card');
+
+            for (let i = 0; i < cards.length; i++) {
+                let name = cards[i].getAttribute('data-name');
+                if (name.includes(filter)) {
+                    cards[i].style.display = "";
+                } else {
+                    cards[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+</body>
+</html>
