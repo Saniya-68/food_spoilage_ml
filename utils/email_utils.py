@@ -12,9 +12,9 @@ class NotificationManager:
             "Use the recipe engine to save it and avoid waste."
         )
         msg = Message(
-            subject="Food Spoilage Alert: Act Now", 
+            subject="Food Spoilage Alert: Act Now",
             sender=self.sender_email,
-            recipients=[projfoodtracker@gmail.com],
+            recipients=[recipient_email],
             body=body,
         )
         self.mail.send(msg)

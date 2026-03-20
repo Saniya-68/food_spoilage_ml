@@ -399,3 +399,119 @@
 2026-03-20 01:54:03,897 INFO 127.0.0.1 - - [20/Mar/2026 01:54:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2026-03-20 01:54:05,757 INFO 127.0.0.1 - - [20/Mar/2026 01:54:05] "POST /recipes HTTP/1.1" 200 -
 2026-03-20 01:54:05,786 INFO 127.0.0.1 - - [20/Mar/2026 01:54:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 09:26:31,273 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-20 09:26:31,274 INFO [33mPress CTRL+C to quit[0m
+2026-03-20 09:26:31,279 INFO  * Restarting with stat
+2026-03-20 09:26:34,621 WARNING  * Debugger is active!
+2026-03-20 09:26:34,625 INFO  * Debugger PIN: 120-673-980
+2026-03-20 09:27:06,440 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-20 09:27:06,440 INFO [33mPress CTRL+C to quit[0m
+2026-03-20 09:27:06,444 INFO  * Restarting with stat
+2026-03-20 09:27:11,117 WARNING  * Debugger is active!
+2026-03-20 09:27:11,120 INFO  * Debugger PIN: 120-673-980
+2026-03-20 09:27:39,055 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-20 09:27:39,055 INFO [33mPress CTRL+C to quit[0m
+2026-03-20 09:27:39,057 INFO  * Restarting with stat
+2026-03-20 09:27:42,873 WARNING  * Debugger is active!
+2026-03-20 09:27:42,877 INFO  * Debugger PIN: 120-673-980
+2026-03-20 09:31:35,953 INFO 127.0.0.1 - - [20/Mar/2026 09:31:35] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-20 09:31:35,977 INFO 127.0.0.1 - - [20/Mar/2026 09:31:35] "GET /login HTTP/1.1" 200 -
+2026-03-20 09:31:36,079 INFO 127.0.0.1 - - [20/Mar/2026 09:31:36] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-20 09:31:36,167 INFO 127.0.0.1 - - [20/Mar/2026 09:31:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-20 09:31:53,104 INFO 127.0.0.1 - - [20/Mar/2026 09:31:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-20 09:31:53,120 INFO Expiry alert for user admin item tomato days_left=1
+2026-03-20 09:31:53,144 INFO 127.0.0.1 - - [20/Mar/2026 09:31:53] "GET / HTTP/1.1" 200 -
+2026-03-20 09:31:53,172 INFO 127.0.0.1 - - [20/Mar/2026 09:31:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 09:32:34,865 INFO Expiry alert for user admin item tomato days_left=1
+2026-03-20 09:32:34,866 INFO 127.0.0.1 - - [20/Mar/2026 09:32:34] "GET / HTTP/1.1" 200 -
+2026-03-20 09:32:34,900 INFO 127.0.0.1 - - [20/Mar/2026 09:32:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 09:32:41,834 INFO 127.0.0.1 - - [20/Mar/2026 09:32:41] "GET /login HTTP/1.1" 200 -
+2026-03-20 09:32:41,857 INFO 127.0.0.1 - - [20/Mar/2026 09:32:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 09:33:17,839 INFO 127.0.0.1 - - [20/Mar/2026 09:33:17] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-20 09:33:17,850 INFO 127.0.0.1 - - [20/Mar/2026 09:33:17] "GET /login HTTP/1.1" 200 -
+2026-03-20 09:33:17,891 INFO 127.0.0.1 - - [20/Mar/2026 09:33:17] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-20 09:33:18,001 INFO 127.0.0.1 - - [20/Mar/2026 09:33:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-20 09:37:21,197 INFO 127.0.0.1 - - [20/Mar/2026 09:37:21] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-20 09:37:21,204 INFO 127.0.0.1 - - [20/Mar/2026 09:37:21] "GET /login HTTP/1.1" 200 -
+2026-03-20 09:37:21,239 INFO 127.0.0.1 - - [20/Mar/2026 09:37:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 09:41:28,970 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\utils\\email_utils.py', reloading
+2026-03-20 09:41:28,970 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\utils\\email_utils.py', reloading
+2026-03-20 09:41:29,335 INFO  * Restarting with stat
+2026-03-20 09:41:29,350 INFO  * Restarting with stat
+2026-03-20 09:41:32,911 WARNING  * Debugger is active!
+2026-03-20 09:41:32,914 INFO  * Debugger PIN: 120-673-980
+2026-03-20 09:41:32,923 WARNING  * Debugger is active!
+2026-03-20 09:41:32,926 INFO  * Debugger PIN: 120-673-980
+2026-03-20 09:41:42,061 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 09:41:42,068 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 09:41:42,445 INFO  * Restarting with stat
+2026-03-20 09:41:42,450 INFO  * Restarting with stat
+2026-03-20 09:41:46,066 WARNING  * Debugger is active!
+2026-03-20 09:41:46,070 INFO  * Debugger PIN: 120-673-980
+2026-03-20 09:41:46,088 WARNING  * Debugger is active!
+2026-03-20 09:41:46,095 INFO  * Debugger PIN: 120-673-980
+2026-03-20 09:41:50,743 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 09:41:50,760 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 09:41:51,111 INFO  * Restarting with stat
+2026-03-20 09:41:51,121 INFO  * Restarting with stat
+2026-03-20 09:41:54,284 WARNING  * Debugger is active!
+2026-03-20 09:41:54,284 WARNING  * Debugger is active!
+2026-03-20 09:41:54,288 INFO  * Debugger PIN: 120-673-980
+2026-03-20 09:41:54,288 INFO  * Debugger PIN: 120-673-980
+2026-03-20 09:42:02,293 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 09:42:02,302 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 09:42:02,656 INFO  * Restarting with stat
+2026-03-20 09:42:02,662 INFO  * Restarting with stat
+2026-03-20 09:42:06,072 WARNING  * Debugger is active!
+2026-03-20 09:42:06,078 INFO  * Debugger PIN: 120-673-980
+2026-03-20 09:42:06,078 WARNING  * Debugger is active!
+2026-03-20 09:42:06,082 INFO  * Debugger PIN: 120-673-980
+2026-03-20 09:42:26,396 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 09:42:26,403 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 09:42:26,749 INFO  * Restarting with stat
+2026-03-20 09:42:26,752 INFO  * Restarting with stat
+2026-03-20 09:42:29,808 WARNING  * Debugger is active!
+2026-03-20 09:42:29,809 WARNING  * Debugger is active!
+2026-03-20 09:42:29,812 INFO  * Debugger PIN: 120-673-980
+2026-03-20 09:42:29,813 INFO  * Debugger PIN: 120-673-980
+2026-03-20 09:45:41,489 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-20 09:45:41,489 INFO [33mPress CTRL+C to quit[0m
+2026-03-20 09:45:41,491 INFO  * Restarting with stat
+2026-03-20 09:45:45,018 WARNING  * Debugger is active!
+2026-03-20 09:45:45,022 INFO  * Debugger PIN: 120-673-980
+2026-03-20 09:47:44,935 INFO 127.0.0.1 - - [20/Mar/2026 09:47:44] "GET /login HTTP/1.1" 200 -
+2026-03-20 09:47:45,034 INFO 127.0.0.1 - - [20/Mar/2026 09:47:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 09:47:52,620 INFO Expiry alert for user admin item tomato days_left=1
+2026-03-20 09:47:56,774 INFO Sent expiry email to rovan63493@paylaar.com
+2026-03-20 09:47:56,796 INFO 127.0.0.1 - - [20/Mar/2026 09:47:56] "GET / HTTP/1.1" 200 -
+2026-03-20 09:47:56,813 INFO 127.0.0.1 - - [20/Mar/2026 09:47:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-20 10:03:58,726 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 10:03:58,737 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 10:03:59,124 INFO  * Restarting with stat
+2026-03-20 10:03:59,130 INFO  * Restarting with stat
+2026-03-20 10:03:59,815 INFO  * Detected change in 'C:\\Users\\SANIYA\\food tracker\\app.py', reloading
+2026-03-20 10:04:00,201 INFO  * Restarting with stat
+2026-03-20 10:04:02,242 WARNING  * Debugger is active!
+2026-03-20 10:04:02,242 WARNING  * Debugger is active!
+2026-03-20 10:04:02,246 INFO  * Debugger PIN: 120-673-980
+2026-03-20 10:04:02,246 INFO  * Debugger PIN: 120-673-980
+2026-03-20 10:04:03,339 WARNING  * Debugger is active!
+2026-03-20 10:04:03,345 INFO  * Debugger PIN: 120-673-980
+2026-03-20 10:22:08,411 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2026-03-20 10:22:08,411 INFO [33mPress CTRL+C to quit[0m
+2026-03-20 10:22:08,413 INFO  * Restarting with stat
+2026-03-20 10:22:12,278 WARNING  * Debugger is active!
+2026-03-20 10:22:12,286 INFO  * Debugger PIN: 120-673-980
+2026-03-20 10:22:35,343 INFO 192.168.1.4 - - [20/Mar/2026 10:22:35] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-20 10:22:35,355 INFO 192.168.1.4 - - [20/Mar/2026 10:22:35] "GET /login HTTP/1.1" 200 -
+2026-03-20 10:22:35,414 INFO 192.168.1.4 - - [20/Mar/2026 10:22:35] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-20 10:22:36,387 INFO 192.168.1.4 - - [20/Mar/2026 10:22:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-20 10:22:42,715 INFO 192.168.1.4 - - [20/Mar/2026 10:22:42] "GET /login HTTP/1.1" 200 -
+2026-03-20 10:22:42,737 INFO 192.168.1.4 - - [20/Mar/2026 10:22:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -

@@ -7,6 +7,7 @@ import joblib
 from utils.recipe_engine import RecipeEngine
 from utils.email_utils import NotificationManager
 from utils.ml_utils import predict_days
+from flask_mail import Mail
 
 app = Flask(__name__)
 app.secret_key = os.getenv("FLASK_SECRET", "supersecretkey")
@@ -24,6 +25,9 @@ app.config["MAIL_USE_TLS"] = True
 app.config["MAIL_USERNAME"] = EMAIL_USER
 app.config["MAIL_PASSWORD"] = EMAIL_PASSWORD
 
+mail = Mail(app)
+notification_manager = NotificationManager(mail, EMAIL_USER)
+
 logging.basicConfig(
     filename=os.path.join(BASE_DIR, "app.log"),
     level=logging.INFO,
@@ -35,7 +39,6 @@ if not os.path.exists(MODEL_PATH):
 
 model_pipeline = joblib.load(MODEL_PATH)
 recipe_engine = RecipeEngine()
-notification_manager = NotificationManager(None, EMAIL_USER)
 
 
 def get_db_connection():
@@ -131,6 +134,11 @@ def check_and_send_notifications(user):
         days_left = (expiry_date - datetime.now().date()).days
         if days_left <= 2 and item["status"] != "Expired":
             logging.info(f"Expiry alert for user {user['username']} item {item['name']} days_left={days_left}")
+            try:
+                notification_manager.send_expiry_alert(user["email"], item["name"], days_left)
+                logging.info(f"Sent expiry email to {user['email']}")
+            except Exception as e:
+                logging.error(f"Failed to send expiry email: {e}")
 
 
 @app.route("/register", methods=["GET", "POST"])
@@ -439,6 +447,11 @@ def api_analytics():
     return jsonify({row["status"]: row["count"] for row in rows})
 
 
+@app.route('/status')
+def status():
+    return "App is running"
+
+
 if __name__ == "__main__":
     init_db()
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)
